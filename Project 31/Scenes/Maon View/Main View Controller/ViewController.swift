@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     
     private var territories: [Territory] = []
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setup()
@@ -89,5 +90,13 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 60
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let territory = territories[indexPath.row]
+        
+        let detailsVC = DetailsView()
+        detailsVC.configure(With: territory)
+        navigationController?.pushViewController(detailsVC, animated: true)
     }
 }

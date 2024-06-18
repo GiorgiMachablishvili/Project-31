@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E3CCFE4F2C2061140090A63E /* CountryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CCFE4E2C2061140090A63E /* CountryViewCell.swift */; };
+		E3E187972C218DCC0028C465 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E187962C218DCC0028C465 /* DetailsView.swift */; };
 		E3F14B292C1F84F100DA233A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F14B282C1F84F100DA233A /* AppDelegate.swift */; };
 		E3F14B2B2C1F84F100DA233A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F14B2A2C1F84F100DA233A /* SceneDelegate.swift */; };
 		E3F14B2D2C1F84F100DA233A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F14B2C2C1F84F100DA233A /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		E3CCFE4E2C2061140090A63E /* CountryViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewCell.swift; sourceTree = "<group>"; };
+		E3E187962C218DCC0028C465 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 		E3F14B252C1F84F100DA233A /* Project 31.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 31.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3F14B282C1F84F100DA233A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3F14B2A2C1F84F100DA233A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,14 @@
 				E3F14B2C2C1F84F100DA233A /* ViewController.swift */,
 			);
 			path = "Main View Controller";
+			sourceTree = "<group>";
+		};
+		E3E187952C218DAB0028C465 /* Deteils View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E3E187962C218DCC0028C465 /* DetailsView.swift */,
+			);
+			path = "Deteils View Controller";
 			sourceTree = "<group>";
 		};
 		E3F14B1C2C1F84F100DA233A = {
@@ -109,6 +119,7 @@
 		E3F14B432C1F858400DA233A /* Maon View */ = {
 			isa = PBXGroup;
 			children = (
+				E3E187952C218DAB0028C465 /* Deteils View Controller */,
 				E3CCFE492C204A540090A63E /* Main View Controller */,
 				E3CCFE482C204A3E0090A63E /* Main View Cell */,
 			);
@@ -239,6 +250,7 @@
 				E3CCFE4F2C2061140090A63E /* CountryViewCell.swift in Sources */,
 				E3F14B292C1F84F100DA233A /* AppDelegate.swift in Sources */,
 				E3F14B4C2C1F869900DA233A /* CountryInfo.swift in Sources */,
+				E3E187972C218DCC0028C465 /* DetailsView.swift in Sources */,
 				E3F14B2B2C1F84F100DA233A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
